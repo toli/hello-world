@@ -57,6 +57,11 @@ _start:
 
 	message:
 		db 0x0A
+		db ' _   _       _         __  __                 _       _', 0x0A
+		db '| | | | ___ | | __ _  |  \/  |_   _ _ __   __| | ___ | |', 0x0A
+		db '| |_| |/ _ \| |/ _` | | |\/| | | | | '_ \ / _` |/ _ \| |', 0x0A
+		db '|  _  | (_) | | (_| | | |  | | |_| | | | | (_| | (_) |_|', 0x0A
+		db ":"|_| |_|\___/|_|\__,_| |_|  |_|\__,_|_| |_|\__,_|\___/(_)", 0x0A
 		db 'Hello from Docker.', 0x0A
 		db 'This message shows that your installation appears to be working correctly.', 0x0A
 		db 0x0A
